@@ -8,16 +8,20 @@
     <title>Inlogging</title>
 </head>
 <body>
-    <div>
-        <form action="">
-            <label for="email">Email</label>
-            <input id="email" type="text">
-            <label for="passord1">Passord</label>
-            <input id="passord1" type="text">
-            <label for="passord2">Gjenta Passord</label>
-            <input id="passord2" type="text">
-        </form>
-        <button onClick="handleSubmit()"></button>
+    <div id="centerContainer">
+        <div id="lagBrukerFormContainer">
+            <h1>Oprett bruker</h1>
+            <form action="" id="lagBrukerForm">
+                <label for="email">Email</label>
+                <input id="email" type="email">
+                <label for="nyttPassord1">Passord</label>
+                <input id="nyttPassord1" type="password">
+                <label for="nyttPassord2">Gjenta Passord</label>
+                <input id="nyttPassord2" type="password">
+            </form>
+            <a href="../index.html">Allerede en bruker?</a>
+            <button onClick="handleSubmit()">Oprett bruker</button>
+        </div>
     </div>
 </body>
 </html>
