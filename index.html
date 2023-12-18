@@ -7,7 +7,7 @@
     <link rel="stylesheet" media="screen and (min-width: 601px)" href="./CSS/pc.css">
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="./CSS/phone.css">
 
-    <script src="./JavaScript/script.js"></script>
+    <script src="./JavaScript/login.js" defer></script>
     <title>Oprett bruker</title>
 </head>
 <body>
@@ -25,6 +25,9 @@
                 <div class="videre">
                     <button class="buttonLogin" onclick="handleLogin()">Logg inn</button>
                     <p>Har ikke en bruker ennå? <a id="alleredeBruker" href="./HTML/lageBruker.html">Ny bruker</a></p>
+                </div>
+                <div id="wrongEmPs">
+                    <p class="feilTekst">Feil epost eller passord</p>
                 </div>
                 
             </div>

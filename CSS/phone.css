@@ -24,6 +24,10 @@ h3 {
     text-align: center;
 }
 
+.feilTekst {
+    text-align: center;
+}
+
 #centerContainer {
     display: flex;
     justify-content: center;
